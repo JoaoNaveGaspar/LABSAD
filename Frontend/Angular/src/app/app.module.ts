@@ -14,11 +14,9 @@ import { BoardClientComponent } from './board-client/board-client.component';
 import { TesteComponent } from './teste/teste.component';
 import { BoardEmployeeComponent } from './board-employee/board-employee.component';
 import { RegisterEmployeeComponent } from './register-employee/register-employee.component';
-import { ReservationsComponent } from './reservations/reservations.component';
 import { DisableEmployeeComponent } from './disable-employee/disable-employee.component';
 import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
-import { ExemploestabelecimentoComponent } from './estabelecimentosespecificos/exemploestabelecimento/exemploestabelecimento.component';
 import { FavoritosComponent } from './favoritos/favoritos.component';
 import { DescriptionExampleComponent } from './Descriptions/description-example/description-example.component';
 import { MatDialogModule } from '@angular/material/dialog';
@@ -45,9 +43,7 @@ import { MoviessimilaarPerfilComponent } from './moviessimilaar-perfil/moviessim
     TesteComponent,
     BoardEmployeeComponent,
     RegisterEmployeeComponent,
-    ReservationsComponent,
     DisableEmployeeComponent,
-    ExemploestabelecimentoComponent,
     FavoritosComponent,
     DescriptionExampleComponent,
     ProfileComponent,

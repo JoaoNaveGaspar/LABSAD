@@ -79,6 +79,9 @@ export class BoardClientComponent implements OnInit {
         this.movies = [];
       }
     }
+    navigateToDiagnosis(){
+      this.router.navigate(['/imagerecognition'])
+    }
   }
   
 
